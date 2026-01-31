@@ -6,7 +6,7 @@
   "author": "Lektr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sergmetelin/lektr-browser-extension"
+    "url": "https://github.com/lektr/lektr-browser-extension"
   },
   "type": "module",
   "scripts": {

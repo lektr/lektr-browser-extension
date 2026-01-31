@@ -1,6 +1,6 @@
 # Lektr Browser Extension
 
-A modern, cross-browser extension to capture web highlights and sync Kindle highlights to [Lektr](https://github.com/sergmetelin/lektr).
+A modern, cross-browser extension to capture web highlights and sync Kindle highlights to [Lektr](https://github.com/lektr/lektr).
 
 Built with **WXT** (Vite-based framework), **React 19**, and **Tailwind CSS 4.0**.
 
