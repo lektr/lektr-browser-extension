@@ -1,0 +1,22 @@
+# Lektr Browser Extension
+
+A modern cross-browser extension for capturing web highlights and syncing Kindle highlights to Lektr.
+
+## Key Technologies
+- **Framework**: WXT (Vite-based)
+- **UI Library**: React 19
+- **Styling**: Tailwind CSS 4.0
+- **Language**: TypeScript
+
+## Project Structure
+- `entrypoints/`: Contains the main entry points for the extension (background script, content scripts, popup).
+    - `background.ts`: Service worker handling sync and alarms.
+    - `content/`: Scripts injected into web pages (Ghost Toolbar).
+    - `popup/`: The extension's popup interface.
+- `components/`: Reusable React components.
+- `lib/`: Core logic and utilities (scraper, helpers).
+- `utils/`: Sync logic and testing mocks.
+
+## Core Features
+- **Web Highlighter**: Select text on any webpage to highlight and save to Lektr. Uses Shadow DOM for isolation.
+- **Kindle Sync**: Automatically syncs highlights from Amazon Kindle Cloud Reader domains (`read.amazon.*`).
