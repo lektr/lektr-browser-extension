@@ -131,4 +131,4 @@ npm run build -- --browser safari
 
 We welcome contributions! Please see [CONTRIBUTORS.md](CONTRIBUTORS.md) for guidelines on how to get started.
 
-MIT — See [LICENSE](../LICENSE) for details.
+Apache 2.0 — See [LICENSE](../LICENSE) for details.
