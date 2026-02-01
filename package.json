@@ -1,9 +1,9 @@
 {
   "name": "lektr-browser-extension",
-  "description": "Capture web highlights and sync Kindle highlights to Lektr",
+  "description": "Capture web highlights and sync Amazon Kindle highlights to your self-hosted Lektr instance",
   "private": true,
   "version": "0.1.0",
-  "author": "Lektr",
+  "author": "Lektr Team",
   "repository": {
     "type": "git",
     "url": "https://github.com/lektr/lektr-browser-extension"
