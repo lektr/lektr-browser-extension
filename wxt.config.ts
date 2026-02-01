@@ -15,9 +15,8 @@ export default defineConfig({
 
     permissions: ['storage', 'alarms', 'notifications', 'offscreen'],
     host_permissions: [
-      // Lektr API - localhost and any custom domain
-      'http://localhost:*/*',
-      'http://127.0.0.1:*/*',
+      // Lektr API & Any Webpage (for highlighting)
+      'http://*/*',
       'https://*/*',
       // Amazon Kindle domains
       '*://read.amazon.com/*',
